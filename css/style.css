@@ -116,8 +116,8 @@ margin-top: 15px;
 background:transparent;
 border: 1px solid white;
 }
-.search-btn{
-width: 90px;
+.btn{
+padding:10px;
 height: 42px;
 color: white;
 font-size: 16px;
