@@ -1,0 +1,153 @@
+/* Global styles --umumi istifade olunan css style leri*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    padding: 0px 160px;
+}
+
+.display-flex-btwn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.display-flex-arnd{
+    display: flex;
+    justify-content: space-around;
+}
+
+.small-tex{
+    color: #676767;
+    font-size: 13px;
+}
+.btn{
+    padding:10px;
+    height: 42px;
+    color: white;
+    font-size: 16px;
+    background-color: #17706e;
+    border: 1px solid #17706e;
+    }
+    .titles-text-aling-padding{
+    padding: 60px 0px;
+    text-align: center;
+    }
+/* Saytin en ust hissesi  */
+#upper-part{
+width: 100%;
+padding: 10px 0px;
+}
+.upper-right i{
+    margin-right: 5px;
+}
+.register{
+    margin-right: 10px;
+}
+/* Navbar -- Logo ve bolmeler hissesi */
+#navbar{
+    width: 100%;
+    
+    background-color: #2980B9;
+}
+.nav a{
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    padding-left: 12px;
+    font-family: sans-serif;
+}
+/* big search -- boyuk axtaris hissesi -- slider -- btn */
+#search{
+    width: 100%;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBg 8s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('../img/1.jpg');
+    text-align: center;
+    background-attachment: fixed;
+    
+}
+@keyframes slideBg{
+    0%{
+        background-image: url('../img/1.jpg');
+    }
+    25%{
+        background-image: url("../img/3.jpg");
+    }
+    50%{
+        background-image: url("../img/4.jpg");
+    }
+    75%{
+        background-image: url("../img/slider1.jpg");
+    }
+    100%{
+        background-image: url('../img/1.jpg');
+    }
+}
+.search-h1-btn{
+    height: 100%;
+    background-color: rgb(0, 0, 0,0.5);
+    color: white;
+}
+.search-h1-btn h1{
+    font-size: 50px;
+    padding-top: 10%;  
+}
+.search-h1-btn p{
+    font-size: 35px;
+}
+.search-inp{
+    width: 400px;
+    height: 40px;
+    margin-top: 25px;
+    background:transparent;
+    border: 1px solid white;
+}
+/* Cateqoria basliqlari--birinci basliq ( xidmet bolmesi )*/
+#servisis{
+    width: 100%;
+    background-color: #f5f5f5;
+}
+#servisis h3{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.categroe{
+    width: 300px;
+    height: 190;
+    padding: 15px;
+    margin-bottom: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+.catagorie-inner-tit{
+    color: #343434;
+    margin: 0px 0px 15px 0px;
+    font-size: 18px;
+    text-align: center;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    
+    color: #343434;
+    margin: 0px 0px 5px 0px;
+}
+.row a{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;  
+    color: #343434;
+}
+
+
