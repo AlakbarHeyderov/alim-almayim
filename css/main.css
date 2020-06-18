@@ -9,6 +9,7 @@ a{
     text-decoration: none;
 }
 .container{
+    white:100%;
     padding: 0px 160px;
 }
 .display-flex-btwn{
@@ -35,6 +36,11 @@ a{
 .titles-text-aling-padding{
     padding: 60px 0px;
     text-align: center;
+}
+.titles-text-aling-padding h3{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 /* Saytin en ust hissesi  */
@@ -165,5 +171,105 @@ a{
     font-size: 9px;
     border-radius: 10px;
 }
+/* En son komentariyalar olan hisse */
+#servisis-2{
+    width: 100%;
+    min-height: 300px;
+    padding: 0px 0px 100px 0px;
+}
+.iki-div{
+    min-width: 500px;
+    background-color: white;
+}
+.en-son-rey-resm{
+    width: 280px;
+    height: 200px;
+    
+}
+.moto{
+    width: 280px;
+    height: 200px;
+}
+.en-son-rey{
+    width: 220px;
+}
+.en-son-rey a{
+    color: black;
+    font-size: 18px;
+    margin: 0px 0px 10px 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+.en-son-rey p{
+    margin: 20px 10px;
+}
+.small-img-div{
+    width: 220px;
+}
+.small-img-div a{
+    padding:10px;
+}
+.small-img{
+    width: 25px;
+    height: 25px;  
+    margin: 0px 0px 0px 8px;
+    border-radius: 50%;
+    float: left;
+    margin: 0px 10px;
+}
+.name-user{
+    margin-bottom: 10px;
+}
 
+/* Product hissesi. axirdaki menyu kimi olan hise */
+#content{
+    margin: 20px 0px;
+}
+.al-content-web-site{
+    min-height: 200px;
+}
+.all-content{
+    width: 25%;
+    min-height: 100px ;
+}
+.al-content-al-section {
+    display: block;
+    margin-bottom: 10px;
+    padding: 7px 0px 0px 25px;
+}
+.al-content-al-section i{
+    font-size: 13px;
+    padding:0px 10px 0px 0px;
+}
+.h5-title {
+    font-size: 18px;
+    color: #343434;
+    margin: 0px;
+    position: relative;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.first-content-image img{
+    width: 50px;
+    height: 50px;
+    margin: 5px 0px 0px -25px;
+}
+.content-image-and-link{
+    margin-left: -15px;
+    padding: 0px 28px;
+}
+.first-content-link{
+    padding: 6px;
+    margin-left: -63px;
+}
 
+/* Son hisse */
+#end{
+   padding: 15px 160px;
+    background-color: #333333;
+    color: white;
+}
+.social-media a{
+    margin: 0px 10px;
+    color: white;
+}
