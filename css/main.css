@@ -1,55 +1,3 @@
-/* Global styles --umumi istifade olunan css style leri*/
-
-* {
-    margin: 0px;
-    padding: 0px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-a {
-    text-decoration: none;
-}
-
-.container {
-    padding: 0px 160px;
-}
-
-.display-flex-btwn {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.display-flex-arnd {
-    display: flex;
-    justify-content: space-around;
-}
-
-.small-tex {
-    color: #676767;
-    font-size: 13px;
-}
-
-.btn {
-    padding: 10px;
-    height: 42px;
-    color: white;
-    font-size: 16px;
-    background-color: #17706e;
-    border: 1px solid #17706e;
-}
-
-.titles-text-aling-padding {
-    padding: 60px 0px;
-    text-align: center;
-}
-
-.titles-text-aling-padding h3 {
-    margin-bottom: 10px;
-    font-weight: bold;
-    font-size: 25px;
-}
-
 /* Saytin en ust hissesi  */
 
 #upper-part {
@@ -72,13 +20,11 @@ a {
     background-color: #2980B9;
     position: sticky;
     top: 0px;
-
 }
 
 .nav a {
     font-size: 13px;
     font-weight: bold;
-    color: white;
     padding-left: 12px;
     font-family: sans-serif;
 }
@@ -124,7 +70,6 @@ a {
 .search-h1-btn {
     height: 100%;
     background-color: rgb(0, 0, 0, 0.5);
-    color: white;
 }
 
 .search-h1-btn h1 {
@@ -165,27 +110,13 @@ a {
     text-align: center;
 }
 
-.catagorie-inner-tit {
-    color: #343434;
-}
-
 .row {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    color: #343434;
     margin: 0px 0px 5px 0px;
 }
 
 .row a {
-    display: flex;
-    justify-content: space-between;
     padding: 5px;
-    color: #343434;
-}
-
-.count {
-    color: white;
 }
 
 /* Bolmelerde ne qeder mehsulun oldugu hisse */
@@ -205,7 +136,14 @@ a {
     min-height: 300px;
     padding: 0px 0px 70px 0px;
 }
-.dord-divi-saxlayan{
+
+.titles-text-aling-padding h3 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.dord-divi-saxlayan {
     margin-bottom: 30px;
 }
 
@@ -214,13 +152,7 @@ a {
     background-color: white;
 }
 
-.en-son-rey-resm {
-    width: 280px;
-    height: 200px;
-
-}
-
-.moto {
+.en-son-rey-resm-and-moto {
     width: 280px;
     height: 200px;
 }
@@ -242,7 +174,8 @@ a {
 }
 
 .small-img-div {
-    width: 220px;
+    width: 100%;
+    height: 30px
 }
 
 .small-img-div a {
@@ -277,8 +210,6 @@ a {
 }
 
 .al-content-al-section {
-    display: block;
-    margin-bottom: 10px;
     padding: 7px 0px 0px 25px;
 }
 
@@ -289,9 +220,6 @@ a {
 
 .h5-title {
     font-size: 18px;
-    color: #343434;
-    margin: 0px;
-    position: relative;
     padding-bottom: 10px;
     display: inline-block;
 }
@@ -316,10 +244,8 @@ a {
 #end {
     padding: 15px 160px;
     background-color: #333333;
-    color: white;
 }
 
 .social-media a {
     margin: 0px 10px;
-    color: white;
 }
