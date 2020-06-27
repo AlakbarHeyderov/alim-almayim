@@ -17,12 +17,22 @@
 
 #navbar {
     width: 100%;
-    min-height: 55px;
+    height: 55px;
     background-color: #f6d743;
     position: sticky;
     top: 0px;
 }
+.childe-navbar{
+    height: 100%;
+    align-items: center;
+    text-align: center;
+}
+.logo{
+    width: 20%;
+    height: 100%;
+}
 .navbar-a{
+    width: 62.9%;
     height: 100%;
 }
 
@@ -272,7 +282,8 @@
     padding: 5px 0px;
 }
 .show li a{
-
+    font-size: 15px;
+    font-weight: bold;
     color: black;
     padding: 5px;
 }
