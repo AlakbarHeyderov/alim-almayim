@@ -22,6 +22,9 @@ a {
     display: flex;
     justify-content: space-around;
 }
+.justify-start{
+    justify-content: start;
+}
 
 .small-tex {
     color: #676767;
@@ -33,8 +36,8 @@ a {
     height: 42px;
     color: white;
     font-size: 16px;
-    background-color: #17706e;
-    border: 1px solid #17706e;
+    background-color: #06623b;
+    border: 1px solid #06623b;
 }
 
 .titles-text-aling-padding {
@@ -50,4 +53,20 @@ a {
 }
 .white-100-px{
     width: 220px;
+}
+.position-relative{
+    position: relative;
+}
+.position-absolute{
+    position: absolute;
+}
+input{
+    padding: 0px 15px;
+    margin-top: 15px;
+}
+.aligin-items-center{
+    align-items: center;
+}
+.mr-r-10px{
+    margin-right: 10px;
 }

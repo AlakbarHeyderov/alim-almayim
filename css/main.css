@@ -17,16 +17,19 @@
 
 #navbar {
     width: 100%;
-    background-color: #2980B9;
+    min-height: 55px;
+    background-color: #f6d743;
     position: sticky;
     top: 0px;
 }
+.navbar-a{
+    height: 100%;
+}
 
-.nav a {
-    font-size: 13px;
+.navbar-a a {
+    font-size: 15px;
     font-weight: bold;
-    padding-left: 12px;
-    font-family: sans-serif;
+    padding: 20px 6px;
 }
 
 /* big search -- boyuk axtaris hissesi -- slider -- btn */
@@ -143,25 +146,25 @@
     font-size: 25px;
 }
 
-.dord-divi-saxlayan {
+.servis2-wrapper{
     margin-bottom: 30px;
 }
 
-.iki-div {
+.servis2-wrapper-inner {
     min-width: 500px;
     background-color: white;
 }
 
-.en-son-rey-resm-and-moto {
+.last-comment-and-section {
     width: 280px;
     height: 200px;
 }
 
-.en-son-rey {
+.last-comment {
     width: 220px;
 }
 
-.en-son-rey a {
+.last-comment a {
     color: black;
     font-size: 18px;
     margin: 0px 0px 10px 10px;
@@ -169,7 +172,7 @@
     font-weight: bold;
 }
 
-.en-son-rey p {
+.last-comment p {
     margin: 20px 10px;
 }
 
@@ -243,9 +246,40 @@
 /* Son hisse */
 #end {
     padding: 15px 160px;
-    background-color: #333333;
+    background-color: #06623b;
 }
 
 .social-media a {
     margin: 0px 10px;
+}
+
+#hidden-menu{
+    width: 90%;
+    box-sizing: border-box;
+    margin: 0% 5%;
+}
+
+
+.show{
+    position: absolute;
+    background-color: #f6d743;
+    padding: 40px 25px 40px 0px;
+}
+.show ul{
+    padding: 0px 0px 0px 15px;
+}
+.show ul li{
+    padding: 5px 0px;
+}
+.show li a{
+
+    color: black;
+    padding: 5px;
+}
+
+.background-color-{
+    background-color: #a9e851;
+}
+.hide{
+    display: none;
 }
