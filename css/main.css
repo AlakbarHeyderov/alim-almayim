@@ -162,11 +162,13 @@
 
 .servis2-wrapper{
     margin-bottom: 30px;
+    box-sizing: border-box;
 }
 
 .servis2-wrapper-inner {
-    min-width: 500px;
+    width: 100%;
     background-color: white;
+    
 }
 
 .last-comment-and-section {

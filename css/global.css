@@ -79,3 +79,9 @@ input{
 .box-sizing-border-box{
     box-sizing: border-box;
 }
+.mr-20px{
+    margin-right: 10px;
+}
+.jc-c{
+    justify-content: center;
+}
