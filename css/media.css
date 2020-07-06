@@ -1,0 +1,144 @@
+@media screen and (max-width: 576px){
+    #upper-part {
+        width: 100%;
+    }
+    .upper-left{
+        width: 40%;
+    }
+    .upper-reight{
+        width: 20%;
+    }
+    .upper-right i {
+        margin-right: 2px;
+    }
+    
+    .register {
+        margin-right: 2px;
+    }
+    .container {
+        padding: 0px 20px;
+    }
+    #navbar {
+        width: 100%;
+        height: 54px;
+        background-color: #35a7ff;
+        position: sticky;
+        top: 0px;
+        z-index: 1;
+    }
+    .childe-navbar{
+        height: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .logo{
+        width: 50%;
+    }
+    .logo a{
+        width: 100%;
+    }
+    .navbar-a{
+        display: none;
+    }
+    
+    .navbar-a a {
+        font-size: 7px;
+        font-weight: bold;
+        padding: 20px 6px;
+    }
+    .responsive-menu{
+        display: inline-block;
+    }
+    .responsive-menu i{
+        padding: 0px 0px 0px 15px;
+    }
+    .hidden-menu{
+        display: none;
+    }
+    .hidden-responsive-ul{
+        display: none;
+    }
+    #search {
+        width: 100%;
+        height: 300px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        backface-visibility: hidden;
+        animation: slideBg 8s linear infinite 0s;
+        animation-timing-function: ease-in-out;
+        background-image: url('../img/1.jpg');
+        text-align: center;
+        background-attachment: fixed;
+    }
+    
+    .search-h1-btn {
+        height: 100%;
+        background-color: rgb(0, 0, 0, 0.5);
+    }
+    
+    .search-h1-btn h1 {
+        font-size: 30px;
+        padding-top: 15%;
+    }
+    
+    .search-h1-btn p {
+        font-size: 20px;
+    }
+    
+    .search-inp {
+        width: 200px;
+        height: 40px;
+        margin-top: 25px;
+        background: transparent;
+        border: 1px solid white;
+    }
+
+
+    
+    .servis {
+        width: 100%;
+        background-color: #f5f5f5;
+        
+    }
+    
+    .servis h3 {
+        font-size: 18px;
+        padding: 15px 0px;
+    }
+    .servis p{
+        padding-bottom: 15px;
+    }
+    
+    .categroe {
+        width: 90%;
+        height: 190;
+        padding: 15px;
+        margin-bottom: 50px;
+        background-color: #fff;
+        text-align: center;
+    }
+    
+    .row {
+        align-items: center;
+        margin: 0px 0px 5px 0px;
+    }
+    
+    .row a {
+        padding: 5px;
+    }
+    .catogoria-servis-responsive-hidden{
+        display: none;
+    }
+    .responsive-catagori-h{
+        display: block;
+    }
+
+    /* Komentarialar bolmesi */
+  
+
+    
+    
+    
+
+}

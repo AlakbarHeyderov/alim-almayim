@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: sans-serif;
 }
 
 a {
@@ -31,7 +31,7 @@ a {
     font-size: 15px;
 }
 
-.btn {
+.btn{
     padding: 10px;
     height: 42px;
     color: white;
@@ -51,6 +51,12 @@ a {
 .color-white{
     color: white;
 }
+.color-black{
+    color: black;
+}
+.color-red{
+    color: darkred;
+}
 .white-100-px{
     width: 220px;
 }
@@ -69,4 +75,7 @@ input{
 }
 .mr-r-10px{
     margin-right: 10px;
+}
+.box-sizing-border-box{
+    box-sizing: border-box;
 }

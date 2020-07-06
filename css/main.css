@@ -4,7 +4,6 @@
     width: 100%;
     padding: 10px 0px;
 }
-
 .upper-right i {
     margin-right: 5px;
 }
@@ -18,9 +17,10 @@
 #navbar {
     width: 100%;
     height: 55px;
-    background-color: #f6d743;
+    background-color: #35a7ff;
     position: sticky;
     top: 0px;
+    z-index: 1;
 }
 .childe-navbar{
     height: 100%;
@@ -32,14 +32,18 @@
     height: 100%;
 }
 .navbar-a{
-    width: 62.9%;
+    width: 64%;
     height: 100%;
+    box-sizing: border-box;
 }
 
 .navbar-a a {
     font-size: 15px;
     font-weight: bold;
     padding: 20px 6px;
+}
+.responsive-menu{
+    display: none;
 }
 
 /* big search -- boyuk axtaris hissesi -- slider -- btn */
@@ -87,7 +91,7 @@
 
 .search-h1-btn h1 {
     font-size: 50px;
-    padding-top: 10%;
+    padding-top: 14%;
 }
 
 .search-h1-btn p {
@@ -168,6 +172,7 @@
 .last-comment-and-section {
     width: 280px;
     height: 200px;
+    overflow: hidden;
 }
 
 .last-comment {
@@ -256,7 +261,7 @@
 /* Son hisse */
 #end {
     padding: 15px 160px;
-    background-color: #06623b;
+    background-color: black;
 }
 
 .social-media a {
@@ -268,12 +273,11 @@
     box-sizing: border-box;
     margin: 0% 5%;
 }
-
-
 .show{
     position: absolute;
-    background-color: #f6d743;
+    background-color: #35a7ff;
     padding: 40px 25px 40px 0px;
+    transform: initial 3sm;
 }
 .show ul{
     padding: 0px 0px 0px 15px;
@@ -287,10 +291,30 @@
     color: black;
     padding: 5px;
 }
-
-.background-color-{
-    background-color: #a9e851;
-}
 .hide{
     display: none;
+}
+
+.stars{
+    position: absolute;
+    top: -120%;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    color: gold;
+    background: rgb(0, 0, 0, 0.6);    
+    text-align: center;
+    padding: 10px 0px;
+    transition: all 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.last-comment-and-section:hover .stars{
+    top: 0px;   
+}
+.text{
+    width: 100%;
+    padding: 0px 0px 20px 0px;
+    
 }
