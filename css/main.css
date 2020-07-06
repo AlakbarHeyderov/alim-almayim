@@ -79,7 +79,7 @@
     backface-visibility: hidden;
     animation: slideBg 8s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('../img/1.jpg');
+    background-image: url('img/1.jpg');
     text-align: center;
     background-attachment: fixed;
 }
@@ -173,6 +173,11 @@
     width: 280px;
     height: 200px;
     overflow: hidden;
+}
+.last-comment-and-section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .last-comment {
