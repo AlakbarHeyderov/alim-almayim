@@ -82,6 +82,9 @@ input{
 .mr-20px{
     margin-right: 10px;
 }
+.ml-10px{
+    margin-left: 10px;
+}
 .jc-c{
     justify-content: center;
 }
