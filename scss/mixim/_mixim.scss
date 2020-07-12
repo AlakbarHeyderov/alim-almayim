@@ -1,0 +1,28 @@
+@mixin between {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+@mixin around {
+    display: flex;
+    justify-content: space-around;
+}
+@mixin button {
+    padding: 10px 20px;
+    height: 48px;
+    font-size: 18px;
+    background: #9ACC55;
+    color: #ffffff;
+    border: 1px solid #9ACC55;
+}
+@mixin absolute {
+    position: absolute;
+}
+@mixin relative {
+    position: relative;
+}
+@mixin fullWhidthHeight {
+    width: 100%;
+    height: 100%;
+    
+}

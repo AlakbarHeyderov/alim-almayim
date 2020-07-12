@@ -1,0 +1,66 @@
+@keyframes slideBg {
+    0% {
+        background-image: url('../img/1.jpg');
+    }
+
+    25% {
+        background-image: url("../img/3.jpg");
+    }
+
+    50% {
+        background-image: url("../img/4.jpg");
+    }
+
+    75% {
+        background-image: url("../img/slider1.jpg");
+    }
+
+    100% {
+        background-image: url('../img/1.jpg');
+    }
+}
+
+#search {
+    width: 100%;
+    height: 570px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBg 8s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('../img/1.jpg');
+    text-align: center;
+   
+    .search-h1-btn {
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+         h1 {
+            font-size: 50px;
+            padding-top: 14%;
+        }
+        p {
+            font-size: 35px;
+        }
+    }
+    .input-and-btn{
+        width: 100%;
+        padding-top: 25px;
+     
+        .search-inp {
+                 width: 390px;
+                 height: 45px;
+                 background: transparent;
+                 border: 1px solid white;
+                 outline: $none;
+                 color: white;
+                 font-size: 18px;
+     
+             }
+    }
+}
+
+
+
+
+

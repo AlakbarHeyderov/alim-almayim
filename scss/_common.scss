@@ -1,7 +1,9 @@
-* {
+$maincollor: #2980b9;
+
+*{
     margin: 0px;
     padding: 0px;
-    font-family: sans-serif;
+    font-family: 'Markazi Text', serif;
 }
 
 a {
@@ -13,14 +15,11 @@ a {
 }
 
 .display-flex-btwn {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include between;
 }
 
 .display-flex-arnd {
-    display: flex;
-    justify-content: space-around;
+    @include around;
 }
 .justify-start{
     justify-content: start;
@@ -32,12 +31,7 @@ a {
 }
 
 .btn{
-    padding: 10px 20px;
-    height: 42px;
-    font-size: 16px;
-    background: #9ACC55;
-    color: #ffffff;
-    border: 1px solid #9ACC55;
+  @include button;
 }
 
 .titles-text-aling-padding {
@@ -85,4 +79,7 @@ input{
 }
 .jc-c{
     justify-content: center;
+}
+.hide{
+    display: none;
 }

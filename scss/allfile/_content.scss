@@ -1,0 +1,41 @@
+#content {
+    margin: 20px 0px;
+    .all-content-web-site {
+        min-height: 200px;
+        .all-content {
+            width: 25%;
+            min-height: 100px;
+            .all-content-all-section {
+                padding: 7px 0px 0px 25px;
+                i {
+                    font-size: 13px;
+                    padding: 0px 10px 0px 0px;
+                }
+                .h5-title {
+                    font-size: 18px;
+                    padding-bottom: 10px;
+                    display: inline-block;
+                }
+            }
+            .content-image-and-link {
+                margin-left: -15px;
+                padding: 0px 28px;
+                .first-content-image img {
+                    width: 50px;
+                    height: 50px;
+                    margin: 5px 0px 0px -25px;
+                }
+                .first-content-link {
+                    padding: 6px;
+                    margin-left: -63px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+

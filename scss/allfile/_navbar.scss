@@ -1,0 +1,68 @@
+#navbar {
+    width: 100%;
+    height: 55px;
+    background-color: $maincollor;
+    position: sticky;
+    top: -20px;
+    z-index: 1;
+    padding: 19px 0px;
+    .logo{
+        width: 20%;
+        height: 100%;
+    }
+    .navbar-a{
+        height: 100%;
+        box-sizing: border-box;
+        a {
+            font-size: 16px;
+            font-weight: bold;
+            padding: 10px;
+        }
+    }
+    .responsive-menu{
+        display: $none;
+    }
+}
+
+// ------DropDown hissesi--------
+
+.dropdown-cours {
+    @include relative;
+    display: inline-block;
+    .cours {
+        background-color:$maincollor;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: $none;
+      }
+      .dropdown-content {
+        display: $none;
+        @include absolute;
+        background-color: #f1f1f1;
+        min-width: 165px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        top: 25px;
+        left: 11px;
+        a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: $none;
+            display: block;
+          }
+        }
+    }
+    .dropdown-content a:hover {background-color: #ddd;}
+    .dropdown-cours:hover .dropdown-content {display: block;}
+  
+  
+ 
+   
+  
+  
+ 
+  
+  
+  
+  
