@@ -189,21 +189,22 @@ input {
   font-weight: bold;
   padding: 10px;
 }
-#navbar .navbar-a .dropdown-cours {
+#navbar .responsive-menu {
+  display: none;
+}
+
+.dropdown-cours {
   position: relative;
   display: inline-block;
 }
-#navbar .navbar-a .dropdown-cours .cours {
+.dropdown-cours .cours {
   background-color: #2980b9;
   color: white;
   padding: 16px;
   font-size: 16px;
   border: none;
 }
-#navbar .navbar-a .dropdown-cours .cours:hover {
-  color: black;
-}
-#navbar .navbar-a .dropdown-cours .dropdown-content {
+.dropdown-cours .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
@@ -213,20 +214,19 @@ input {
   top: 25px;
   left: 11px;
 }
-#navbar .navbar-a .dropdown-cours .dropdown-content a {
+.dropdown-cours .dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
-#navbar .navbar-a .dropdown-cours .dropdown-content a:hover {
+
+.dropdown-content a:hover {
   background-color: #ddd;
 }
-#navbar .navbar-a .dropdown-cours:hover .dropdown-content {
+
+.dropdown-cours:hover .dropdown-content {
   display: block;
-}
-#navbar .responsive-menu {
-  display: none;
 }
 
 @keyframes slideBg {
@@ -368,8 +368,8 @@ input {
 }
 .last-comment .small-img-div {
   width: 100%;
-  height: 30px a;
-  height-padding: 10px;
+  height: 30px ;
+  padding: 10px;
 }
 .last-comment .small-img-div .small-img {
   width: 25px;
