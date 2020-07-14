@@ -1,10 +1,49 @@
 #upper-part {
     width: 100%;
     padding: 10px 0px;
-    .upper-right i {
-        margin-right: 5px;
+    .upper-right{
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 14px;
+        i {
+            margin-right: 5px;
+            
+        }
     }
+    
     .register {
         margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    *{
+        box-sizing: border-box;
+    }
+    .container{
+        padding: 0px 0px;
+    }
+    #upper-part {
+        width: 100%;
+        padding: 3px 4px;
+        display: flex;
+        justify-content: space-between;
+        .container{
+            display: flex;
+            justify-content: space-around;
+        }
+        .upper-left{
+            width: 45%;
+        }
+        .upper-right{
+        width: 50%;
+        }
+        .upper-right i {
+            margin-right: 0px;
+        }
+        .register {
+            margin-right: 0px;
+        }
     }
 }

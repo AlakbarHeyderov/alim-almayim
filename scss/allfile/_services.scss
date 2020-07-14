@@ -7,6 +7,12 @@
             font-size: 28px;
             margin-bottom: 10px;
         }
+        .container{
+            .row-service{
+                    display: flex;
+                    justify-content: space-between;
+            }
+        }
     }
     .categroe {
         width: 300px;
@@ -31,6 +37,33 @@
             }
         }
         
+    }
+}
+
+
+
+@media screen and (max-width:576px){
+    #services{
+        width: 100%;
+        .service {
+            width: 100%;
+            background-color: #f5f5f5;
+            .container{
+                .row-service{
+                        display: block;
+                }
+            }
+            h3 {
+                padding: 15px 0px 8px 0px;
+            }
+            p{
+                padding-bottom: 15px;
+            }
+        }
+        .categroe {
+            width: 100%;
+            margin-bottom: 10px;
+        }
     }
 }
 

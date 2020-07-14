@@ -64,3 +64,47 @@
 
 
 
+@media screen and (max-width: 576px){
+    .btn{
+        @include button-media;
+      }
+    #search {
+        width: 100%;
+        height: 250px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        backface-visibility: hidden;
+        animation: slideBg 8s linear infinite 0s;
+        animation-timing-function: ease-in-out;
+        background-image: url('../img/1.jpg');
+        text-align: center;
+       
+        .search-h1-btn {
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+             h1 {
+                font-size: 25px;
+                padding: 10% 0% 3% 0%;
+            }
+            p {
+                font-size: 20px;
+            }
+        }
+        .input-and-btn{
+            width: 100%;
+            padding: 0px 10px;
+         
+            .search-inp {
+                     width: 250px;
+                     height: 25px;
+                     background: transparent;
+                     border: 1px solid white;
+                     outline: $none;
+                     color: white;
+                     font-size: 18px;
+         
+                 }
+        }
+    }
+}

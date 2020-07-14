@@ -54,7 +54,6 @@
                     display: block;
                     
                 }
-                
             }
     }
     .responsive-menu{
@@ -62,19 +61,25 @@
     }
 }
 
-// ------DropDown hissesi--------
-
-
-    // .dropdown-content a:hover {background-color: #ddd;}
-    // .dropdown-cours:hover .dropdown-content {display: block;}
-  
-  
- 
-   
-  
-  
- 
-  
-  
-  
-  
+@media screen and (max-width: 576px){
+    #navbar {
+        width: 100%;
+        background-color: $maincollor; 
+        z-index: 1;
+        padding: 0px;
+        .logo{
+            height: 100%; 
+        }
+        a{
+            color: white;
+            font-size: 25px;
+            padding:0px 10px 0px 0px;
+        }
+        .navbar-a{
+            display: none;
+        }
+        .responsive-menu{
+            display: block;
+        }
+    }
+}

@@ -6,12 +6,13 @@
     <script src="https://kit.fontawesome.com/4ae6ac1410.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="css/main.css">
+    <!-- <link rel="stylesheet" href="css/media.css"> -->
     <title>Alim yoxsa almayim?</title>
 </head>
 <body>
     <!-- En ust hisse -->
-<section id="upper-part" class="width-100">
-    <div class="container container-responsive display-flex-btwn padding-t-b">
+<section id="upper-part" >
+    <div class="container display-flex-btwn padding-t-b">
 
         <div class="upper-left small-tex ">
             <p>Bizim məsləhətlərə baxmadan heçnə almayın.</p>
@@ -87,7 +88,7 @@
             </div>
         </div>
         <div class="responsive-menu container-responsive">
-            <a href="#" class=" border-black box-sizing-border-box" onclick="menu()">Menyu<i class="fas fa-bars"></i></a>
+            <a href="#" class=" border-black box-sizing-border-box" onclick="menu()"><i class="fas fa-bars"></i></a>
         </div>
     </div>
 
@@ -115,212 +116,142 @@
             <p class="small-tex">Məhsul və xidmətləri gözdən keçirmək üçün kateqorialardan birini secin</p>
         </div>
         <!-- xidmetler bolmesi -  2 hisseye ayrilib xidmetlerin daxilinde bolmeler ve saylari -->
-        <div class="container display-flex-btwn catogoria-service-responsive-hidden">
-            <div class="categroe">
-                <i class="fas fa-tv"></i>
-                <a href="#" class="catagorie-inner-tit color-34">Elektron cihazlar</a>
+            <div class="container ">
+                <div class="row-service">
+                <div class="categroe">
+                    <i class="fas fa-tv"></i>
+                    <a href="#" class="catagorie-inner-tit color-34">Elektron cihazlar</a>
 
-                <div class="row display-flex-btwn ">
-                    <a href="#" class="small-text color-34">Telefon</a>
-                    <div class="count color-white"><span class="row-count-b">0</span></div>
+                    <div class="row display-flex-btwn ">
+                        <a href="#" class="small-text color-34">Telefon</a>
+                        <div class="count color-white"><span class="row-count-b">0</span></div>
+                    </div>
+                    <div class="row display-flex-btwn ">
+                        <a href="#" class="small-text color-34">Planşet</a>
+                        <div class="count color-white"><span class="row-count-b">0</span></div>
+                    </div>
+                    <div class="row display-flex-btwn ">
+                        <a href="#" class="small-text color-34">TV</a>
+                        <div class="count color-white"><span class="row-count-b">0</span></div>
+                    </div>
+                    <div class="row display-flex-btwn ">
+                        <a href="#" class="small-text color-34">Elektronika ustaları</a>
+                        <div class="count color-white"><span class="row-count-b">0</span></div>
+                    </div>
                 </div>
-                <div class="row display-flex-btwn ">
-                    <a href="#" class="small-text color-34">Planşet</a>
-                    <div class="count color-white"><span class="row-count-b">0</span></div>
-                </div>
-                <div class="row display-flex-btwn ">
-                    <a href="#" class="small-text color-34">TV</a>
-                    <div class="count color-white"><span class="row-count-b">0</span></div>
-                </div>
-                <div class="row display-flex-btwn ">
-                    <a href="#" class="small-text color-34">Elektronika ustaları</a>
-                    <div class="count color-white"><span class="row-count-b">0</span></div>
-                </div>
-            </div>
-            <div class="categroe">
-                <i class="fas fa-tshirt"></i>
-                <a href="#" class="catagorie-inner-tit color-34">Geyim</a>
+                <div class="categroe">
+                    <i class="fas fa-tshirt"></i>
+                    <a href="#" class="catagorie-inner-tit color-34">Geyim</a>
 
-                <div class="row display-flex-btwn">
-                    <a href="#" class="small-text color-34">Geyim dükanları</a>
-                    <div class="count color-white"><span class="row-count-b">0</span></div>
+                    <div class="row display-flex-btwn">
+                        <a href="#" class="small-text color-34">Geyim dükanları</a>
+                        <div class="count color-white"><span class="row-count-b">0</span></div>
+                    </div>
+                    <div class="row display-flex-btwn">
+                        <a href="#" class="small-text color-34">Brendlər</a>
+                        <div class="count color-white"><span class="row-count-b">0</span></div>
+                    </div>
+                    <div class="row display-flex-btwn">
+                        <a href="#" class="small-text color-34">İnternet mağazalar</a>
+                        <div class="count color-white"><span class="row-count-b">0</span></div>
+                    </div>
+                    <div class="row display-flex-btwn">
+                        <a href="#" class="small-text color-34">Dərzi</a>
+                        <div class="count color-white"><span class="row-count-b">0</span></div>
+                    </div>
                 </div>
-                <div class="row display-flex-btwn">
-                    <a href="#" class="small-text color-34">Brendlər</a>
-                    <div class="count color-white"><span class="row-count-b">0</span></div>
-                </div>
-                <div class="row display-flex-btwn">
-                    <a href="#" class="small-text color-34">İnternet mağazalar</a>
-                    <div class="count color-white"><span class="row-count-b">0</span></div>
-                </div>
-                <div class="row display-flex-btwn">
-                    <a href="#" class="small-text color-34">Dərzi</a>
-                    <div class="count color-white"><span class="row-count-b">0</span></div>
-                </div>
-            </div>
-            <div class="categroe">
-                <i class="fas fa-bicycle"></i>
-                <a href="#" class="catagorie-inner-tit color-34">İki təkər minik vasitələri</a>
+                <div class="categroe">
+                    <i class="fas fa-bicycle"></i>
+                    <a href="#" class="catagorie-inner-tit color-34">İki təkər minik vasitələri</a>
 
-                <div class="row display-flex-btwn">
-                    <a href="#" class="small-text color-34">Moped</a>
-                    <div class="count color-white "><span class="row-count-b">0</span></div>
-                </div>
-                <div class="row display-flex-btwn">
-                    <a href="#" class="small-text color-34">Motosklet</a>
-                    <div class="count color-white"><span class="row-count-b">0</span></div>
-                </div>
-                <div class="row display-flex-btwn ">
-                    <a href="#" class="small-text color-34">Velisoped</a>
-                    <div class="count color-white"><span class="row-count-b">0</span></div>
-                </div>
-                <div class="row display-flex-btwn">
-                    <a href="#" class="small-text color-34">Ustalar</a>
-                    <div class="count color-white"><span class="row-count-b">0</span></div>
+                    <div class="row display-flex-btwn">
+                        <a href="#" class="small-text color-34">Moped</a>
+                        <div class="count color-white "><span class="row-count-b">0</span></div>
+                    </div>
+                    <div class="row display-flex-btwn">
+                        <a href="#" class="small-text color-34">Motosklet</a>
+                        <div class="count color-white"><span class="row-count-b">0</span></div>
+                    </div>
+                    <div class="row display-flex-btwn ">
+                        <a href="#" class="small-text color-34">Velisoped</a>
+                        <div class="count color-white"><span class="row-count-b">0</span></div>
+                    </div>
+                    <div class="row display-flex-btwn">
+                        <a href="#" class="small-text color-34">Ustalar</a>
+                        <div class="count color-white"><span class="row-count-b">0</span></div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="container display-flex-btwn catogoria-service-responsive-hidden">
-            <div class="categroe">
-                <i class="fas fa-heart"></i>
-                <a href="#" class="catagorie-inner-tit color-34">Sağlamlıq</a>
+        <div class="container ">
+            <div class="row-service">
+                <div class="categroe">
+                    <i class="fas fa-heart"></i>
+                    <a href="#" class="catagorie-inner-tit color-34">Sağlamlıq</a>
 
-                <div class="row display-flex-btwn">
-                    <a href="#" class="small-text color-34">Həkimlər</a>
-                    <div class="count color-white"><span class="row-count-b">0</span></div>
+                    <div class="row display-flex-btwn">
+                        <a href="#" class="small-text color-34">Həkimlər</a>
+                        <div class="count color-white"><span class="row-count-b">0</span></div>
+                    </div>
+                    <div class="row display-flex-btwn">
+                        <a href="#" class="small-text color-34">Klinikalar</a>
+                        <div class="count color-white"><span class="row-count-b">0</span></div>
+                    </div>
+                    <div class="row display-flex-btwn">
+                        <a href="#" class="small-text color-34">Dərmanlar</a>
+                        <div class="count color-white"><span class="row-count-b">0</span></div>
+                    </div>
+                    <div class="row display-flex-btwn">
+                        <a href="#" class="small-text color-34">Otlarla müaliçə</a>
+                        <div class="count color-white"><span class="row-count-b">0</span></div>
+                    </div>
                 </div>
-                <div class="row display-flex-btwn">
-                    <a href="#" class="small-text color-34">Klinikalar</a>
-                    <div class="count color-white"><span class="row-count-b">0</span></div>
-                </div>
-                <div class="row display-flex-btwn">
-                    <a href="#" class="small-text color-34">Dərmanlar</a>
-                    <div class="count color-white"><span class="row-count-b">0</span></div>
-                </div>
-                <div class="row display-flex-btwn">
-                    <a href="#" class="small-text color-34">Otlarla müaliçə</a>
-                    <div class="count color-white"><span class="row-count-b">0</span></div>
-                </div>
-            </div>
-            <div class="categroe">
-                <i class="fas fa-home icon-absolute"></i>
-                <a href="#" class="catagorie-inner-tit color-34">Ev üçün</a>
+                <div class="categroe">
+                    <i class="fas fa-home icon-absolute"></i>
+                    <a href="#" class="catagorie-inner-tit color-34">Ev üçün</a>
 
-                <div class="row display-flex-btwn">
-                    <a href="#" class="small-text color-34">Mətbəx üçün</a>
-                    <div class="count color-white"><span class="row-count-b">0</span></div>
+                    <div class="row display-flex-btwn">
+                        <a href="#" class="small-text color-34">Mətbəx üçün</a>
+                        <div class="count color-white"><span class="row-count-b">0</span></div>
+                    </div>
+                    <div class="row display-flex-btwn">
+                        <a href="#" class="small-text color-34">Yatağ otağı üçün</a>
+                        <div class="count color-white"><span class="row-count-b">0</span></div>
+                    </div>
+                    <div class="row display-flex-btwn">
+                        <a href="#" class="small-text color-34">Ev dizaynları</a>
+                        <div class="count color-white"><span class="row-count-b">0</span></div>
+                    </div>
+                    <div class="row display-flex-btwn">
+                        <a href="#" class="small-text color-34">Məişət ustaları</a>
+                        <div class="count color-white"><span class="row-count-b">0</span></div>
+                    </div>
                 </div>
-                <div class="row display-flex-btwn">
-                    <a href="#" class="small-text color-34">Yatağ otağı üçün</a>
-                    <div class="count color-white"><span class="row-count-b">0</span></div>
-                </div>
-                <div class="row display-flex-btwn">
-                    <a href="#" class="small-text color-34">Ev dizaynları</a>
-                    <div class="count color-white"><span class="row-count-b">0</span></div>
-                </div>
-                <div class="row display-flex-btwn">
-                    <a href="#" class="small-text color-34">Məişət ustaları</a>
-                    <div class="count color-white"><span class="row-count-b">0</span></div>
-                </div>
-            </div>
-            <div class="categroe">
-                <i class="fas fa-futbol"></i>
-                <a href="#" class="catagorie-inner-tit color-34">İdman</a>
+                <div class="categroe">
+                    <i class="fas fa-futbol"></i>
+                    <a href="#" class="catagorie-inner-tit color-34">İdman</a>
 
-                <div class="row display-flex-btwn">
-                    <a href="#" class="small-text color-34">Voleybol</a>
-                    <div class="count color-white"><span class="row-count-b">0</span></div>
-                </div>
-                <div class="row display-flex-btwn">
-                    <a href="#" class="small-text color-34">Basketbol</a>
-                    <div class="count color-white"><span class="row-count-b">0</span></div>
-                </div>
-                <div class="row display-flex-btwn">
-                    <a href="#" class="small-text color-34">Futbol</a>
-                    <div class="count color-white"><span class="row-count-b">0</span></div>
-                </div>
-                <div class="row display-flex-btwn">
-                    <a href="#" class="small-text color-34">Tenis</a>
-                    <div class="count color-white"><span class="row-count-b">0</span></div>
+                    <div class="row display-flex-btwn">
+                        <a href="#" class="small-text color-34">Voleybol</a>
+                        <div class="count color-white"><span class="row-count-b">0</span></div>
+                    </div>
+                    <div class="row display-flex-btwn">
+                        <a href="#" class="small-text color-34">Basketbol</a>
+                        <div class="count color-white"><span class="row-count-b">0</span></div>
+                    </div>
+                    <div class="row display-flex-btwn">
+                        <a href="#" class="small-text color-34">Futbol</a>
+                        <div class="count color-white"><span class="row-count-b">0</span></div>
+                    </div>
+                    <div class="row display-flex-btwn">
+                        <a href="#" class="small-text color-34">Tenis</a>
+                        <div class="count color-white"><span class="row-count-b">0</span></div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
- <!-- Responsive 576 formasinda -->
- <section>
- <div class="container-responsive display-flex-arnd responsive-catagori-h hide">
-    <div class="categroe">
-        <i class="fas fa-tv"></i>
-        <a href="#" class="catagorie-inner-tit color-34">Elektron cihazlar</a>
-
-        <div class="row display-flex-btwn ">
-            <a href="#" class="small-text color-34">Telefon</a>
-            <div class="count color-white"><span class="row-count-b">0</span></div>
-        </div>
-        <div class="row display-flex-btwn ">
-            <a href="#" class="small-text color-34">Planşet</a>
-            <div class="count color-white"><span class="row-count-b">0</span></div>
-        </div>
-        <div class="row display-flex-btwn ">
-            <a href="#" class="small-text color-34">TV</a>
-            <div class="count color-white"><span class="row-count-b">0</span></div>
-        </div>
-        <div class="row display-flex-btwn ">
-            <a href="#" class="small-text color-34">Elektronika ustaları</a>
-            <div class="count color-white"><span class="row-count-b">0</span></div>
-        </div>
-    </div>
-   
-</div>
-<div class="container-responsive display-flex-arnd responsive-catagori-h hide">
-    <div class="categroe">
-        <i class="fas fa-tshirt"></i>
-        <a href="#" class="catagorie-inner-tit color-34">Geyim</a>
-
-        <div class="row display-flex-btwn">
-            <a href="#" class="small-text color-34">Geyim dükanları</a>
-            <div class="count color-white"><span class="row-count-b">0</span></div>
-        </div>
-        <div class="row display-flex-btwn">
-            <a href="#" class="small-text color-34">Brendlər</a>
-            <div class="count color-white"><span class="row-count-b">0</span></div>
-        </div>
-        <div class="row display-flex-btwn">
-            <a href="#" class="small-text color-34">İnternet mağazalar</a>
-            <div class="count color-white"><span class="row-count-b">0</span></div>
-        </div>
-        <div class="row display-flex-btwn">
-            <a href="#" class="small-text color-34">Dərzi</a>
-            <div class="count color-white"><span class="row-count-b">0</span></div>
-        </div>
-    </div>
-</div>
-<div class="container-responsive display-flex-arnd responsive-catagori-h hide">
-    <div class="categroe">
-        <i class="fas fa-bicycle"></i>
-        <a href="#" class="catagorie-inner-tit color-34">İki təkər minik vasitələri</a>
-
-        <div class="row display-flex-btwn">
-            <a href="#" class="small-text color-34">Moped</a>
-            <div class="count color-white "><span class="row-count-b">0</span></div>
-        </div>
-        <div class="row display-flex-btwn">
-            <a href="#" class="small-text color-34">Motosklet</a>
-            <div class="count color-white"><span class="row-count-b">0</span></div>
-        </div>
-        <div class="row display-flex-btwn ">
-            <a href="#" class="small-text color-34">Velisoped</a>
-            <div class="count color-white"><span class="row-count-b">0</span></div>
-        </div>
-        <div class="row display-flex-btwn">
-            <a href="#" class="small-text color-34">Ustalar</a>
-            <div class="count color-white"><span class="row-count-b">0</span></div>
-        </div>
-    </div>
-</div>
-</section>
-<!-- Responsive 576 formasinda -->
 
 
 
@@ -330,8 +261,8 @@
         <p class="small-tex">İstifadəcilərin ən çox rəy bildirdikləri mövzular</p>
     </div>
     <!-- En son reyler bolmesi 2 hisseli. Resm-h5-p-person images  -->
-    <div class="service2-wrapper display-flex-btwn container catogoria-service-responsive-hidden">
-        <div class="service2-wrapper-inner display-flex-btwn position-relative mr-20px">
+    <div class="service2-wrapper container">
+        <div class="service2-wrapper-inner ">
             <div class="last-comment-and-section position-relative">
                 <div class="stars">
                     <div class="text">
@@ -359,7 +290,7 @@
                 </div>
             </div>
         </div>
-        <div class="service2-wrapper-inner display-flex-btwn">
+        <div class="service2-wrapper-inner ">
             <div class="last-comment-and-section position-relative">
                 <div class="stars">
                     <div class="text">
@@ -388,7 +319,7 @@
             </div>
         </div>
     </div>
-    <div class="service2-wrapper display-flex-btwn container catogoria-service-responsive-hidden">
+    <div class="service2-wrapper container">
         <div class="service2-wrapper-inner display-flex-btwn mr-20px">
             <div class="last-comment-and-section position-relative">
                 <div class="stars">
@@ -445,134 +376,13 @@
             </div>
         </div>
     </div>
-    <!-- responsive 576 px  -->
-    <div class="service2-wrapper  container responsive-catagori-h hide">
-        <div class="service2-wrapper-inner  position-relative mr-20px">
-            <div class="last-comment-and-section position-relative">
-                <div class="stars">
-                    <div class="text">
-                        <span>Umumi</span>
-                        <span>/</span>
-                        <span>Reytinq</span>
-                    </div>
-                    <div class="icons">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    </div>
-                </div>
-                <img src="img/idman.jpg" alt="Sport" class="last-comment-and-section">
-            </div>
-            <div class="last-comment">
-                <a href="#">Idman</a>
-                <p class="small-tex">Lorem, ipsum dolor sit lum aliquam, tempora accuinctio odio amet sit.</p>
-               
-                <div class="small-img-div">
-                    <img src="img/person1.jpg" alt="Person Image" class="small-img">
-                    <span class="name-user">Mamed Mamedov</span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="service2-wrapper container responsive-catagori-h hide">
-        <div class="service2-wrapper-inner">
-            <div class="last-comment-and-section position-relative">
-                <div class="stars">
-                    <div class="text">
-                        <span>Umumi</span>
-                        <span>/</span>
-                        <span>Reytinq</span>
-                    </div>
-                    <div class="icons">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    </div>
-                </div>
-                
-                <img src="img/moto3.jpg" alt="Motosklet" class="last-comment-and-section">
-            </div>
-            <div class="last-comment">
-                <a href="#">Motosklet novleri</a>
-                <p class="small-tex">Lorem, ipsum dolor sit lum aliquam, tempora accuinctio odio amet sit.</p>
-                <div class="small-img-div">
-                    <img src="img/person1.jpg" alt="Person Image" class="small-img">
-                    <span class="name-user">Mamed Mamedov</span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="service2-wrapper container responsive-catagori-h hide">
-        <div class="service2-wrapper-inner">
-            <div class="last-comment-and-section position-relative">
-                <div class="stars">
-                    <div class="text">
-                        <span>Umumi</span>
-                        <span>/</span>
-                        <span>Reytinq</span>
-                    </div>
-                    <div class="icons">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    </div>
-                </div>
-            
-                <img src="img/aile.jpg" alt="Aile" class="last-comment-and-section">
-            </div>
-            <div class="last-comment">
-                <a href="#">Ailə</a>
-                <p class="small-tex">Lorem, ipsum dolor sit lum aliquam, tempora accuinctio odio amet sit.</p>
-                <div class="small-img-div">
-                    <img src="img/person1.jpg" alt="Person Image" class="small-img">
-                    <span class="name-user">Mamed Mamedov</span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="service2-wrapper container responsive-catagori-h hide">
-        <div class="service2-wrapper-inner ">
-            <div class="last-comment-and-section position-relative">
-                <div class="stars">
-                    <div class="text">
-                        <span>Umumi</span>
-                        <span>/</span>
-                        <span>Reytinq</span>
-                    </div>
-                    <div class="icons">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    </div>
-                </div>
-                <img src="img/truzim.jpg" alt="Truzim" class="last-comment-and-section">
-            </div>
-            <div class="last-comment">
-                <a href="#">Truzim</a>
-                <p class="small-tex">Lorem, ipsum dolor sit lum aliquam, tempora accuinctio odio amet sit.</p>
-                <div class="small-img-div">
-                    <img src="img/person1.jpg" alt="Person Image" class="small-img">
-                    <span class="name-user">Mamed Mamedov</span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- responsive 576 px  -->
 </section>
 
 
 <section id="content">
     <div class="all-content-web-site container display-flex-btwn">
         <div class="all-content ">
-            <div class="all-content-all-section" style="display: inline;">
+            <div class="all-content-all-section">
                 <a href="#">
                     <h5 class="h5-title color-34"><i class="fa fa-angle-double-right"></i>Avtomobil</h5>
                 </a>
@@ -581,7 +391,7 @@
                 <div class="first-content-image">
                     <a href="#"> <img src="img/bmw.jpg" alt="BMW"> </a>
                 </div>
-                <div class="first-content-link  catogoria-service-responsive-hidden">
+                <div class="first-content-link">
                     <a href="#" class="small-tex">BMW</a>
                     <p class="small-tex">19 iyun 2020</p>
                 </div>
@@ -590,7 +400,7 @@
                 <div class="first-content-image">
                     <a href="#"> <img src="img/mercedes.jpg" alt="Mercedes"> </a>
                 </div>
-                <div class="first-content-link catogoria-service-responsive-hidden">
+                <div class="first-content-link ">
                     <a href="#" class="small-tex">Mercedes</a>
                     <p class="small-tex">19 iyun 2020</p>
                 </div>
@@ -599,7 +409,7 @@
                 <div class="first-content-image">
                     <a href="#"> <img src="img/hyundai.jpg" alt="Hyundai"> </a>
                 </div>
-                <div class="first-content-link catogoria-service-responsive-hidden">
+                <div class="first-content-link ">
                     <a href="#" class="small-tex">Hyundai</a>
                     <p class="small-tex">19 iyun 2020</p>
                 </div>
@@ -616,7 +426,7 @@
                 <div class="first-content-image">
                     <a href="#"> <img src="img/iphone.jpg" alt="Iphone"> </a>
                 </div>
-                <div class="first-content-link catogoria-service-responsive-hidden">
+                <div class="first-content-link">
                     <a href="#" class="small-tex">Iphone</a>
                     <p class="small-tex">19 iyun 2020</p>
                 </div>
@@ -625,7 +435,7 @@
                 <div class="first-content-image">
                     <a href="#"><img src="img/samsung.jpg" alt="Samsung"></a>
                 </div>
-                <div class="first-content-link catogoria-service-responsive-hidden">
+                <div class="first-content-link">
                     <a href="#" class="small-tex">Samsung</a>
                     <p class="small-tex">19 iyun 2020</p>
                 </div>
@@ -634,7 +444,7 @@
                 <div class="first-content-image">
                     <a href="#"> <img src="img/xiomi.jpg" alt="Xiomi"> </a>
                 </div>
-                <div class="first-content-link catogoria-service-responsive-hidden">
+                <div class="first-content-link">
                     <a href="#" class="small-tex">Xiomi</a>
                     <p class="small-tex">19 iyun 2020</p>
                 </div>
@@ -651,7 +461,7 @@
                 <div class="first-content-image">
                     <a href="#"><img src="img/at.jpg" alt="At"> </a>
                 </div>
-                <div class="first-content-link catogoria-service-responsive-hidden">
+                <div class="first-content-link ">
                     <a href="#" class="small-tex">At</a>
                     <p class="small-tex">19 iyun 2020</p>
                 </div>
@@ -660,7 +470,7 @@
                 <div class="first-content-image">
                     <a href="#"> <img src="img/dog.jpg" alt="It"></a>
                 </div>
-                <div class="first-content-link catogoria-service-responsive-hidden">
+                <div class="first-content-link ">
                     <a href="#" class="small-tex ">It</a>
                     <p class="small-tex">19 iyun 2020</p>
                 </div>
@@ -669,7 +479,7 @@
                 <div class="first-content-image">
                     <a href="#"> <img src="img/cat.jpg" alt="Pisik"> </a>
                 </div>
-                <div class="first-content-link catogoria-service-responsive-hidden">
+                <div class="first-content-link   ">
                     <a href="#" class="small-tex">Pisik</a>
                     <p class="small-tex">19 iyun 2020</p>
                 </div>
@@ -686,7 +496,7 @@
                 <div class="first-content-image">
                     <a href="#"> <img src="img/az.jpg" alt="Azerbaycan"> </a>
                 </div>
-                <div class="first-content-link catogoria-service-responsive-hidden">
+                <div class="first-content-link   ">
                     <a href="#" class="small-tex">Azərbaycan</a>
                     <p class="small-tex">19 iyun 2020</p>
                 </div>
@@ -695,7 +505,7 @@
                 <div class="first-content-image">
                     <a href="#"> <img src="img/turkey.jpg" alt="Turkiye"> </a>
                 </div>
-                <div class="first-content-link catogoria-service-responsive-hidden">
+                <div class="first-content-link   ">
                     <a href="#" class="small-tex">Türkiyə</a>
                     <p class="small-tex">19 iyun 2020</p>
                 </div>
@@ -704,7 +514,7 @@
                 <div class="first-content-image">
                     <a href="#"> <img src="img/georgia.jpg" alt="Gurcustan"> </a>
                 </div>
-                <div class="first-content-link catogoria-service-responsive-hidden">
+                <div class="first-content-link   ">
                     <a href="#" class="small-tex">Gürcüstan</a>
                     <p class="small-tex">19 iyun 2020</p>
                 </div>
