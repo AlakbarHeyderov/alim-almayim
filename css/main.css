@@ -597,7 +597,7 @@ input {
     margin: 20px 0px;
   }
   #content .all-content-web-site {
-    padding: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 24px;
   }
   #content .all-content-web-site .all-content {
     width: 20%;
@@ -609,11 +609,12 @@ input {
     display: none;
   }
   #content .all-content-web-site .all-content .all-content-all-section .h5-title {
-    padding-left: 7px;
+    display: block;
   }
   #content .all-content-web-site .all-content .content-image-and-link {
     margin-left: 0px;
     padding: 0px;
+    justify-content: flex-start;
   }
   #content .all-content-web-site .all-content .content-image-and-link .first-content-image img {
     width: 50px;
