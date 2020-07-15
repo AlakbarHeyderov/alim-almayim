@@ -185,24 +185,25 @@ input {
   #upper-part {
     width: 100%;
     padding: 3px 4px;
-    display: flex;
-    justify-content: space-between;
   }
   #upper-part .container {
     display: flex;
     justify-content: space-around;
   }
   #upper-part .upper-left {
-    width: 45%;
+    display: none;
   }
   #upper-part .upper-right {
-    width: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
   }
   #upper-part .upper-right i {
     margin-right: 0px;
   }
   #upper-part .register {
-    margin-right: 0px;
+    margin-right: 0%;
   }
 }
 #navbar {
