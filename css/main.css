@@ -599,15 +599,26 @@ input {
   #content .all-content-web-site {
     padding: 0px 0px 0px 15px;
   }
+  #content .all-content-web-site .all-content {
+    width: 20%;
+  }
+  #content .all-content-web-site .all-content .all-content-all-section {
+    padding: 0px 0px 0px 0px;
+  }
+  #content .all-content-web-site .all-content .all-content-all-section i {
+    display: none;
+  }
+  #content .all-content-web-site .all-content .all-content-all-section .h5-title {
+    padding-left: 14px;
+  }
   #content .all-content-web-site .all-content .content-image-and-link {
     margin-left: 0px;
     padding: 0px;
   }
-  #content .all-content-all-section {
-    padding: 7px 0px 0px 10%;
-  }
-  #content .all-content-all-section i {
-    display: none;
+  #content .all-content-web-site .all-content .content-image-and-link .first-content-image img {
+    width: 50px;
+    height: 50px;
+    margin: 0px 0px 0px 0px;
   }
   #content .first-content-link {
     display: none;
