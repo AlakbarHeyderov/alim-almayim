@@ -539,8 +539,19 @@ input {
     align-items: flex-start;
     padding: 0px 0px 0px 2px;
   }
+  #services-2 .service2-wrapper .service2-wrapper-inner .last-comment-and-section {
+    width: 50%;
+    height: 170px;
+    overflow: hidden;
+  }
+  #services-2 .service2-wrapper .service2-wrapper-inner .last-comment-and-section img {
+    width: 100%;
+  }
+  #services-2 .service2-wrapper .service2-wrapper-inner .last-comment-and-section .stars {
+    width: 100%;
+  }
   #services-2 .service2-wrapper .service2-wrapper-inner .last-comment {
-    padding: 15px;
+    padding: 15px 0px 0px 15px;
   }
 }
 #content {
@@ -584,6 +595,13 @@ input {
   #content {
     width: 100%;
     margin: 20px 0px;
+  }
+  #content .all-content-web-site {
+    padding: 0px 0px 0px 15px;
+  }
+  #content .all-content-web-site .all-content .content-image-and-link {
+    margin-left: 0px;
+    padding: 0px;
   }
   #content .all-content-all-section {
     padding: 7px 0px 0px 10%;

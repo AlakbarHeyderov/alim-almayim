@@ -42,11 +42,21 @@
     #content {
         width: 100%;
         margin: 20px 0px;
+        .all-content-web-site{
+            padding: 0px 0px 0px 15px;
+            .all-content{
+                .content-image-and-link {
+                    margin-left: 0px; 
+                    padding: 0px; 
+                }
+            }
+        }
        .all-content-all-section {
             padding: 7px 0px 0px 10%;
             i {
                 display: none;
             }
+           
         }
         .first-content-link {
             display: none;

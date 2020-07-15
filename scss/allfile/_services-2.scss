@@ -84,13 +84,22 @@
                 display: flex;
                 justify-content: start;
                 align-items: flex-start;
-                
                 padding: 0px 0px 0px 2px;
-                .last-comment {
-                    
-                    padding: 15px;
-                    
+                .last-comment-and-section{
+                    width: 50%;
+                    height: 170px;
+                    overflow: hidden;
+                    img{
+                        width: 100%;
+                    }
+                    .stars{
+                        width: 100%;
+                    }
                 }
+                        .last-comment {
+    
+                            padding: 15px 0px 0px 15px;
+                        }
             }
         }
     }
