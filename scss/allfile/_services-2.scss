@@ -64,7 +64,7 @@
 }
 
 
-@media screen and (max-width:576px){
+@media only screen and (min-width:320px) and (max-width: 576px){
     #services-2 {
         padding: 0px 0px 2px 0px;
         .titles-text-aling-padding  {
