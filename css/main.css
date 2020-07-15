@@ -597,7 +597,7 @@ input {
     margin: 20px 0px;
   }
   #content .all-content-web-site {
-    padding: 0px 0px 0px 15px;
+    padding: 0px 0px 0px 10px;
   }
   #content .all-content-web-site .all-content {
     width: 20%;
@@ -609,7 +609,7 @@ input {
     display: none;
   }
   #content .all-content-web-site .all-content .all-content-all-section .h5-title {
-    padding-left: 14px;
+    padding-left: 7px;
   }
   #content .all-content-web-site .all-content .content-image-and-link {
     margin-left: 0px;
