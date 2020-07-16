@@ -61,7 +61,32 @@
     }
 }
 
-@media only screen and (min-width:320px) and (max-width: 576px){
+@media (min-width:320px) and (max-width: 480px){
+    #navbar {
+        width: 100%;
+        top: 0px;
+        background-color: $maincollor; 
+        z-index: 1;
+        padding: 0px;
+        .logo{
+            height: 100%; 
+        }
+        a{
+            color: white;
+            font-size: 25px;
+            padding:0px 10px 0px 0px;
+        }
+        .navbar-a{
+            display: none;
+        }
+        .responsive-menu{
+            display: block;
+        }
+    }
+}
+
+// --------------------Plansetler ucun responsivlik-----------------
+@media (min-width:481px) and (max-width: 768px){
     #navbar {
         width: 100%;
         top: 0px;

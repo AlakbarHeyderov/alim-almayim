@@ -6,8 +6,13 @@
     }
 }
 
-@media only screen and (min-width:320px) and (max-width: 576px){
+@media (min-width:320px) and (max-width: 480px){
     #end {
         padding: 15px 10px;
+    }
+}
+@media (min-width:481px) and (max-width: 768px){
+    #end {
+        padding: 15px 55px;
     }
 }

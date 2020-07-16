@@ -23,6 +23,14 @@
     color: #ffffff;
     // border: 1px solid #9ACC55;
 }
+@mixin button-media-tablet {
+    padding: 0px 10px;
+    height: 30px;
+    font-size: 18px;
+    background: #9ACC55;
+    color: #ffffff;
+    // border: 1px solid #9ACC55;
+}
 @mixin absolute {
     position: absolute;
 }

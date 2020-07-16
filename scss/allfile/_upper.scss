@@ -17,7 +17,8 @@
     }
 }
 
-@media only screen and (min-width:320px) and (max-width: 576px){
+//  -------Telefonlar ucun Responsivlik
+@media (min-width:320px) and (max-width: 480px){
     *{
         box-sizing: border-box;
     }
@@ -27,6 +28,40 @@
     #upper-part {
         width: 100%;
         padding: 3px 4px;
+        
+        .container{
+            display: flex;
+            justify-content: space-around;
+        }
+        .upper-left{
+            display: none;
+        }
+        .upper-right{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 10px;
+        }
+        .upper-right i {
+            margin-right: 0px;
+        }
+        .register {
+            margin-right: 0%;
+        }
+    }
+}
+
+// --------------------Plansetler ucun responsivlik-----------------
+@media (min-width:481px) and (max-width: 768px){
+    *{
+        box-sizing: border-box;
+    }
+    .container{
+        padding: 0px 15px;
+    }
+    #upper-part {
+        width: 100%;
+        padding: 3px 0px;
         
         .container{
             display: flex;
