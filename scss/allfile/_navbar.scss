@@ -109,3 +109,36 @@
         }
     }
 }
+
+@media (min-width:811px) and (max-width: 1199px) {
+
+    #navbar {
+        width: 100%;
+        top: 0px;
+        background-color: $maincollor; 
+        z-index: 1;
+        padding: 0px;
+        .logo{
+            width: 40%;
+        }
+        a{
+            color: white;
+            font-size: 20px;
+            padding:0px 10px 0px 0px;
+        }
+        .navbar-a{
+            width: 60%;
+            text-align: end;
+            .dropdown-cours{
+                .cours{
+                    padding: 0px 10px 0px 0px;
+                    font-size: 14px;
+                    
+                }
+                .dropdown-content{
+                    text-align: start;
+                }
+            }
+        }
+    }
+}

@@ -96,3 +96,20 @@
         }
     }
 }
+@media (min-width:811px) and (max-width: 1199px){
+#services{
+        .service {
+            h3 {
+                padding: 12px 0px 0px 0px;
+            }
+            p{
+                padding-bottom: 15px;
+            }
+        }
+        .categroe {
+            width: 29%;
+            margin: 0px 0px 20px 0px;
+            
+        }
+}
+}

@@ -84,3 +84,27 @@
         }
     }
 }
+
+@media (min-width:811px) and (max-width: 1199px) {
+    .container{
+        padding: 0px 40px;
+    }
+    #upper-part {
+        width: 100%;
+        padding: 10px 0px;
+        .upper-right{
+            width: 50%;
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 14px;
+            i {
+                margin-right: 5px;
+                
+            }
+        }
+        
+        .register {
+            margin-right: 10px;
+        }
+    }
+}

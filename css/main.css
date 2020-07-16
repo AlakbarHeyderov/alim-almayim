@@ -239,6 +239,28 @@ input {
     margin-right: 0%;
   }
 }
+@media (min-width: 811px) and (max-width: 1199px) {
+  .container {
+    padding: 0px 40px;
+  }
+
+  #upper-part {
+    width: 100%;
+    padding: 10px 0px;
+  }
+  #upper-part .upper-right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 14px;
+  }
+  #upper-part .upper-right i {
+    margin-right: 5px;
+  }
+  #upper-part .register {
+    margin-right: 10px;
+  }
+}
 #navbar {
   width: 100%;
   height: 55px;
@@ -345,6 +367,34 @@ input {
   }
   #navbar .responsive-menu {
     display: block;
+  }
+}
+@media (min-width: 811px) and (max-width: 1199px) {
+  #navbar {
+    width: 100%;
+    top: 0px;
+    background-color: #2980b9;
+    z-index: 1;
+    padding: 0px;
+  }
+  #navbar .logo {
+    width: 40%;
+  }
+  #navbar a {
+    color: white;
+    font-size: 20px;
+    padding: 0px 10px 0px 0px;
+  }
+  #navbar .navbar-a {
+    width: 60%;
+    text-align: end;
+  }
+  #navbar .navbar-a .dropdown-cours .cours {
+    padding: 0px 10px 0px 0px;
+    font-size: 14px;
+  }
+  #navbar .navbar-a .dropdown-cours .dropdown-content {
+    text-align: start;
   }
 }
 @keyframes slideBg {
@@ -495,6 +545,35 @@ input {
     font-size: 18px;
   }
 }
+@media (min-width: 811px) and (max-width: 1199px) {
+  .btn {
+    padding: 0px 10px;
+    height: 37px;
+    font-size: 18px;
+    background: #9ACC55;
+    color: #ffffff;
+  }
+
+  #search {
+    width: 100%;
+    height: 300px;
+  }
+  #search .search-h1-btn {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  #search .search-h1-btn h1 {
+    font-size: 35px;
+    padding: 9% 0% 1% 0%;
+  }
+  #search .search-h1-btn p {
+    font-size: 25px;
+  }
+  #search .search-inp {
+    width: 370px;
+    height: 35px;
+  }
+}
 #services {
   width: 100%;
 }
@@ -578,6 +657,18 @@ input {
   #services .categroe {
     width: 32%;
     margin-bottom: 10px;
+  }
+}
+@media (min-width: 811px) and (max-width: 1199px) {
+  #services .service h3 {
+    padding: 12px 0px 0px 0px;
+  }
+  #services .service p {
+    padding-bottom: 15px;
+  }
+  #services .categroe {
+    width: 29%;
+    margin: 0px 0px 20px 0px;
   }
 }
 #services-2 {
@@ -690,6 +781,43 @@ input {
   #services-2 .titles-text-aling-padding h3 {
     margin-bottom: 0px;
     padding: 15px 0px 8px 0px;
+  }
+  #services-2 .titles-text-aling-padding p {
+    padding: 0px 0px 15px 0px;
+  }
+  #services-2 .service2-wrapper {
+    margin-bottom: 10px;
+  }
+  #services-2 .service2-wrapper .service2-wrapper-inner {
+    width: 49%;
+    margin: 0px 0px 10px 0px;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 0px 0px 0px 2px;
+  }
+  #services-2 .service2-wrapper .service2-wrapper-inner .last-comment-and-section {
+    width: 50%;
+    height: 170px;
+    overflow: hidden;
+  }
+  #services-2 .service2-wrapper .service2-wrapper-inner .last-comment-and-section img {
+    width: 100%;
+  }
+  #services-2 .service2-wrapper .service2-wrapper-inner .last-comment-and-section .stars {
+    width: 100%;
+  }
+  #services-2 .service2-wrapper .service2-wrapper-inner .last-comment {
+    padding: 15px 0px 0px 15px;
+  }
+}
+@media (min-width: 811px) and (max-width: 1190px) {
+  #services-2 {
+    padding: 0px 0px 2px 0px;
+  }
+  #services-2 .titles-text-aling-padding h3 {
+    margin-bottom: 0px;
+    padding: 0px 0px 8px 0px;
   }
   #services-2 .titles-text-aling-padding p {
     padding: 0px 0px 15px 0px;
@@ -866,6 +994,45 @@ input {
     display: none;
   }
 }
+@media (min-width: 811px) and (max-width: 1190px) {
+  #content {
+    width: 100%;
+    margin: 20px 0px;
+  }
+  #content .all-content-web-site {
+    min-height: 200px;
+  }
+  #content .all-content-web-site .all-content {
+    width: 25%;
+    min-height: 100px;
+  }
+  #content .all-content-web-site .all-content .all-content-all-section {
+    padding: 0px 0px 0px 0px;
+  }
+  #content .all-content-web-site .all-content .all-content-all-section i {
+    font-size: 13px;
+    padding: 0px 10px 0px 6%;
+  }
+  #content .all-content-web-site .all-content .all-content-all-section .h5-title {
+    font-size: 18px;
+    padding-bottom: 10px;
+    display: block;
+  }
+  #content .all-content-web-site .all-content .content-image-and-link {
+    margin: 0px;
+    padding: 0px;
+  }
+  #content .all-content-web-site .all-content .content-image-and-link .first-content-image img {
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+  }
+  #content .all-content-web-site .all-content .content-image-and-link .first-content-link {
+    padding: 0px;
+    margin: 0px;
+    width: 50%;
+  }
+}
 #end {
   padding: 15px 160px;
   background-color: black;
@@ -880,6 +1047,11 @@ input {
   }
 }
 @media (min-width: 481px) and (max-width: 810px) {
+  #end {
+    padding: 15px 55px;
+  }
+}
+@media (min-width: 811px) and (max-width: 1190px) {
   #end {
     padding: 15px 55px;
   }
