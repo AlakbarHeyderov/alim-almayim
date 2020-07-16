@@ -206,7 +206,7 @@ input {
     margin-right: 0%;
   }
 }
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 810px) {
   * {
     box-sizing: border-box;
   }
@@ -324,7 +324,7 @@ input {
     display: block;
   }
 }
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 810px) {
   #navbar {
     width: 100%;
     top: 0px;
@@ -448,7 +448,7 @@ input {
     font-size: 18px;
   }
 }
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 810px) {
   .btn {
     padding: 0px 10px;
     height: 30px;
@@ -557,7 +557,7 @@ input {
     margin-bottom: 10px;
   }
 }
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 810px) {
   #services {
     width: 100%;
   }
@@ -683,7 +683,7 @@ input {
     padding: 15px 0px 0px 15px;
   }
 }
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 810px) {
   #services-2 {
     padding: 0px 0px 2px 0px;
   }
@@ -829,7 +829,7 @@ input {
     display: none;
   }
 }
-@media (min-width: 551px) and (max-width: 768px) {
+@media (min-width: 551px) and (max-width: 810px) {
   #content {
     width: 100%;
     margin: 20px 0px;
@@ -879,7 +879,7 @@ input {
     padding: 15px 10px;
   }
 }
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 810px) {
   #end {
     padding: 15px 55px;
   }
