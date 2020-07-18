@@ -11,3 +11,18 @@ function menu(){
     }
     
 }
+
+
+window.onscroll = function() {scroll()};
+function scroll(){
+if(document.body.scrollTop > 50 || document.documentElement.scrollTop > 50){
+        document.getElementById("navbar").style.height = "40px";
+    }else if(document.body.scrollTop < 50 || document.documentElement.scrollTop < 50){
+        document.getElementById("navbar").style.height = "55px";
+    }else{
+        alert('Navbar Onscroll Problem');
+    }
+}
+
+
+

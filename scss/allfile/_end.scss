@@ -18,8 +18,17 @@
 }
 
 
-@media (min-width:811px) and (max-width: 1190px) {
+@media (min-width:811px) and (max-width: 1199px) {
     #end {
         padding: 15px 55px;
     }
+}
+
+
+$sizes: 10, 15, 20, 25, 30, 35, 100;
+@each $size in $sizes {
+    .font-size-#{$size}{
+        font-size: #{$size}px ;
+    }
+   
 }

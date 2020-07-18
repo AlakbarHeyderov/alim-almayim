@@ -1,26 +1,72 @@
 #hidden-menu{
-    width: 90%;
+    width: 100%;
+    height: 251px;
     box-sizing: border-box;
-    margin: 0% 5%;
+    position: absolute;
 }
 .show{
-    @include absolute;
-    background-color: #35a7ff;
-    padding: 40px 25px 40px 0px;
+    top:100%;
+    right: 0px;
+    background-color: $maincollor;
+    box-sizing: border-box;
     transform: initial 3sm;
+    display: flex;
+    ul{
+        margin: 0 auto;
+        li{
+            padding: 8px 0px;
+            a{
+                font-size: 18px;
+                font-weight: bold;
+                color: white;
+                padding: 0px 10px 0px 0px;
+            }
+        }
+    }
 }
-.show ul{
-    padding: 0px 0px 0px 15px;
+    
+@media (min-width:320px) and (max-width: 480px){
+    #hidden-menu{
+        width: 100%;
+        height: 251px;
+        box-sizing: border-box;
+        position: absolute;
+    }
+    .show{
+        top:100%;
+        right: 0px;
+        // background-color: $maincollor;
+        background-color: red;
+        box-sizing: border-box;
+        transform: initial 3sm;
+        display: flex;
+        ul{
+            margin: 0 auto;
+            li{
+                padding: 8px 0px;
+                a{
+                    font-size: 10px;
+                    font-weight: bold;
+                    color: white;
+                    padding: 0px 10px 0px 0px;
+                }
+            }
+        }
+    }
+    .responsive-menu i{
+        font-size: 20px;
+        color: white;
+        padding: 0px 10px 0px 0px;
+    }
 }
-.show ul li{
-    padding: 5px 0px;
-}
-.show li a{
-    font-size: 15px;
-    font-weight: bold;
-    color: black;
-    padding: 5px;
-}
+
+
+
+
+
+
+
+
 .hide{
     display: $none;
 }
