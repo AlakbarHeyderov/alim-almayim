@@ -3,6 +3,8 @@
     height: 251px;
     box-sizing: border-box;
     position: absolute;
+    top: 55px;
+
 }
 .show{
     top:100%;
@@ -28,15 +30,16 @@
 @media (min-width:320px) and (max-width: 480px){
     #hidden-menu{
         width: 100%;
-        height: 251px;
+        height: 248px;
         box-sizing: border-box;
         position: absolute;
+        top: 55px;
+
     }
     .show{
-        top:100%;
+        background-color: $maincollor;
+        top: 95%;
         right: 0px;
-        // background-color: $maincollor;
-        background-color: red;
         box-sizing: border-box;
         transform: initial 3sm;
         display: flex;
@@ -59,12 +62,6 @@
         padding: 0px 10px 0px 0px;
     }
 }
-
-
-
-
-
-
 
 
 .hide{

@@ -80,9 +80,13 @@ a {
   justify-content: start;
 }
 
-.small-tex {
+.small-text {
   color: #676767;
-  font-size: 15px;
+  font-size: 18px;
+}
+
+.padding-top-15 {
+  padding-top: 15px;
 }
 
 .btn {
@@ -95,7 +99,7 @@ a {
 }
 
 .titles-text-aling-padding {
-  padding: 60px 0px;
+  padding: 40px 0px;
   text-align: center;
 }
 
@@ -274,6 +278,9 @@ input {
   width: 20%;
   height: 100%;
 }
+#navbar .logo img {
+  width: 220px;
+}
 #navbar .navbar-a {
   height: 100%;
   box-sizing: border-box;
@@ -290,8 +297,8 @@ input {
 #navbar .navbar-a .dropdown-cours .cours {
   background-color: #2980b9;
   color: white;
-  padding: 16px;
-  font-size: 16px;
+  padding: 13px;
+  font-size: 19px;
   border: none;
 }
 #navbar .navbar-a .dropdown-cours .cours:hover {
@@ -326,6 +333,7 @@ input {
 @media (min-width: 320px) and (max-width: 480px) {
   #navbar {
     width: 100%;
+    position: static;
     top: 0px;
     background-color: #2980b9;
     z-index: 1;
@@ -406,6 +414,7 @@ input {
   height: 251px;
   box-sizing: border-box;
   position: absolute;
+  top: 55px;
 }
 
 .show {
@@ -432,15 +441,16 @@ input {
 @media (min-width: 320px) and (max-width: 480px) {
   #hidden-menu {
     width: 100%;
-    height: 251px;
+    height: 248px;
     box-sizing: border-box;
     position: absolute;
+    top: 55px;
   }
 
   .show {
-    top: 100%;
+    background-color: #2980b9;
+    top: 95%;
     right: 0px;
-    background-color: red;
     box-sizing: border-box;
     transform: initial 3sm;
     display: flex;
@@ -532,7 +542,7 @@ input {
 }
 #search .search-h1-btn h1 {
   font-size: 50px;
-  padding-top: 14%;
+  padding-top: 17%;
 }
 #search .search-h1-btn p {
   font-size: 35px;
@@ -683,6 +693,7 @@ input {
 }
 #services .service h3 {
   font-size: 28px;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 #services .service .container .row-service {
@@ -692,7 +703,7 @@ input {
 #services .categroe {
   width: 300px;
   height: 190;
-  padding: 15px;
+  padding: 20px 25px;
   margin-bottom: 50px;
   background-color: #fff;
   text-align: center;
@@ -707,9 +718,9 @@ input {
 #services .categroe .row .row-count-b {
   float: right;
   background: #454545;
-  width: 23px;
-  padding: 4px;
-  font-size: 9px;
+  width: 25px;
+  padding: 5px;
+  font-size: 12px;
   border-radius: 10px;
 }
 
@@ -723,9 +734,11 @@ input {
   }
   #services .service .container .row-service {
     display: block;
+    margin: 0px 5px;
+    padding: 0px 10px;
   }
   #services .service h3 {
-    padding: 15px 0px 8px 0px;
+    padding: 15px 0px 0px 0px;
   }
   #services .service p {
     padding-bottom: 15px;
@@ -779,7 +792,7 @@ input {
 }
 #services-2 .titles-text-aling-padding h3 {
   margin-bottom: 10px;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 25px;
 }
 #services-2 .service2-wrapper {
@@ -808,11 +821,11 @@ input {
   object-fit: cover;
 }
 #services-2 .service2-wrapper .service2-wrapper-inner .last-comment {
-  width: 220px;
+  width: 280px;
 }
 #services-2 .service2-wrapper .service2-wrapper-inner .last-comment a {
   color: black;
-  font-size: 18px;
+  font-size: 22px;
   margin: 0px 0px 10px 10px;
   box-sizing: border-box;
   font-weight: bold;
@@ -826,8 +839,8 @@ input {
   height-padding: 10px;
 }
 #services-2 .service2-wrapper .service2-wrapper-inner .last-comment .small-img-div .small-img {
-  width: 25px;
-  height: 25px;
+  width: 40px;
+  height: 40px;
   margin: 0px 0px 0px 8px;
   border-radius: 50%;
   float: left;
@@ -835,6 +848,7 @@ input {
 }
 #services-2 .service2-wrapper .service2-wrapper-inner .last-comment .small-img-div .name-user {
   margin-bottom: 10px;
+  padding-top: 14px;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -849,8 +863,8 @@ input {
     padding: 0px 0px 15px 0px;
   }
   #services-2 .service2-wrapper {
-    margin-bottom: 10px;
     display: block;
+    margin: 0px 10px 10px 0px;
   }
   #services-2 .service2-wrapper .service2-wrapper-inner {
     margin: 0px 0px 10px 0px;
@@ -973,11 +987,11 @@ input {
 }
 #content .all-content-web-site .all-content .content-image-and-link {
   margin-left: -15px;
-  padding: 0px 28px;
+  padding: 0px 90px 0px 55px;
 }
 #content .all-content-web-site .all-content .content-image-and-link .first-content-image img {
-  width: 50px;
-  height: 50px;
+  width: 65px;
+  height: 65px;
   margin: 5px 0px 0px -25px;
 }
 #content .all-content-web-site .all-content .content-image-and-link .first-content-link {
@@ -1004,7 +1018,7 @@ input {
   }
   #content .all-content-web-site .all-content .all-content-all-section .h5-title {
     display: block;
-    font-size: 16px;
+    font-size: 18px;
   }
   #content .all-content-web-site .all-content .content-image-and-link {
     margin-left: 0px;
@@ -1012,8 +1026,8 @@ input {
     justify-content: flex-start;
   }
   #content .all-content-web-site .all-content .content-image-and-link .first-content-image img {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     margin: 0px 0px 0px 0px;
   }
   #content .first-content-link {
@@ -1189,6 +1203,7 @@ input {
   height: 251px;
   box-sizing: border-box;
   position: absolute;
+  top: 55px;
 }
 
 .show {
@@ -1215,15 +1230,16 @@ input {
 @media (min-width: 320px) and (max-width: 480px) {
   #hidden-menu {
     width: 100%;
-    height: 251px;
+    height: 248px;
     box-sizing: border-box;
     position: absolute;
+    top: 55px;
   }
 
   .show {
-    top: 100%;
+    background-color: #2980b9;
+    top: 95%;
     right: 0px;
-    background-color: red;
     box-sizing: border-box;
     transform: initial 3sm;
     display: flex;

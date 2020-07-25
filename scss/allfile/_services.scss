@@ -5,6 +5,7 @@
         background-color: #f5f5f5;
         h3 {
             font-size: 28px;
+            font-weight: 600;
             margin-bottom: 10px;
         }
         .container{
@@ -17,7 +18,7 @@
     .categroe {
         width: 300px;
         height: 190;
-        padding: 15px;
+        padding: 20px 25px;
         margin-bottom: 50px;
         background-color: #fff;
         text-align: center;
@@ -30,9 +31,9 @@
             .row-count-b {
                 float: right;
                 background: #454545;
-                width: 23px;
-                padding: 4px;
-                font-size: 9px;
+                width: 25px;
+                padding: 5px;
+                font-size: 12px;
                 border-radius: 10px;
             }
         }
@@ -51,10 +52,12 @@
             .container{
                 .row-service{
                         display: block;
+                        margin: 0px 5px;
+                        padding: 0px 10px;
                 }
             }
             h3 {
-                padding: 15px 0px 8px 0px;
+                padding: 15px 0px 0px 0px;
             }
             p{
                 padding-bottom: 15px;
