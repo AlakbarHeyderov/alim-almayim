@@ -701,7 +701,7 @@ input {
   justify-content: space-between;
 }
 #services .categroe {
-  width: 300px;
+  width: 280px;
   height: 190;
   padding: 20px 25px;
   margin-bottom: 50px;
@@ -974,7 +974,7 @@ input {
   min-height: 100px;
 }
 #content .all-content-web-site .all-content .all-content-all-section {
-  padding: 7px 0px 0px 25px;
+  padding: 7px 0px 0px 16px;
 }
 #content .all-content-web-site .all-content .all-content-all-section i {
   font-size: 13px;
@@ -987,7 +987,7 @@ input {
 }
 #content .all-content-web-site .all-content .content-image-and-link {
   margin-left: -15px;
-  padding: 0px 90px 0px 55px;
+  padding: 0px 65px 0px 55px;
 }
 #content .all-content-web-site .all-content .content-image-and-link .first-content-image img {
   width: 65px;
