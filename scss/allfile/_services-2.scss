@@ -98,7 +98,16 @@
                     }
                 }
                 .last-comment {
-                padding: 15px 0px 0px 15px;
+                    padding: 15px 0px 0px 15px;
+                        .small-img-div{
+                            .name-user {
+                                margin-bottom: 0px;
+                                padding-top: 0px;
+                        }
+                    } 
+                    p {
+                        margin: 6px 10px;
+                    }
                 }
             }
         }
